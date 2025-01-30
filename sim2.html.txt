@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Student details</title>
+<style>
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+         .main h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+     }
+
+        
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+</style>
+</head>
+<body>
+<center>
+
+<form style="border:10px solid blue;">
+<div class="main">
+
+<table>
+<div class="main">
+<tr>
+<td></td>
+<h2 colspan=2>Registration Form</h2>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" placeholder="enter your name"></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" placeholder="enter your email"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" placeholder="enter your password"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="g">Male</td>
+<td><input type="radio" name="g">Female</td>
+</tr>
+
+<tr>
+<td>Contact:</td>
+<td><input type="number" placeholder="enter your mobile number"></td>
+</tr>
+<tr>
+<td>Course:</td>
+<td><select>
+<option>Choose your branch</option>
+<option>CSE</option>
+
+<option>ECE</option>
+
+<option>AI&ML</option>
+
+<option>MECH</option>
+
+</select></td>
+</tr>
+
+
+<tr>
+<td></td>
+<td><input type="button" value="Submit"></td>
+</tr>
+
+
+</table>
+</div>
+</form>
+</center>
+</body>
+</html>
